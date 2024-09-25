@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffcc99;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a:hover {
+    color: #ff704d;
+}
+
+main {
+    height: 1000px;
+    background-color: gray;
+}
